@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+  <link href="../src/output.css" rel="stylesheet">
 </head>
 <body class="bg-slate-950">
   <nav class="h-16 bg-amber-700 flex items-center">
@@ -18,5 +18,46 @@
     </div>
   
   </nav>
+
+
+  <nav class="h-16 bg-amber-700 flex items-center justify-between px-5">
+    <!-- Logo on the left -->
+    <div class="flex items-center">
+        <img src="https://logopond.com/logos/dc5cc8314658dcbce4536affc4772f78.png" alt="Logo" class="h-10 w-10"> <!-- Replace with your logo -->
+        <span class="text-white text-xl font-bold ml-3">Your Brand</span> <!-- Replace with your brand name -->
+    </div>
+
+    <!-- Navigation links on the right -->
+    <div class="elements">
+        <ul class="flex space-x-10 text-white">
+            <li class="hover:cursor-pointer text-xl">Home</li>
+            <li class="hover:cursor-pointer text-xl">About</li>
+            <li class="hover:cursor-pointer text-xl">Help</li>
+            <li class="hover:cursor-pointer text-xl">Contact</li>
+        </ul>
+    </div>
+</nav>
+
+
+<nav class="h-16 bg-amber-700 flex items-center justify-between px-5">
+  <!-- Logo on the left -->
+  <div class="flex items-center">
+      <img src="https://logopond.com/logos/dc5cc8314658dcbce4536affc4772f78.png" alt="Logo" class="h-10 w-10"> <!-- Replace with your logo -->
+      <span class="text-white text-xl font-bold ml-3">Your Brand</span> <!-- Replace with your brand name -->
+  </div>
+
+  <!-- Navigation links centered -->
+  <div class="flex-1 flex justify-center">
+      <ul class="flex space-x-10 text-white">
+          <li class="hover:cursor-pointer text-xl">Home</li>
+          <li class="hover:cursor-pointer text-xl">About</li>
+          <li class="hover:cursor-pointer text-xl">Help</li>
+          <li class="hover:cursor-pointer text-xl">Contact</li>
+      </ul>
+  </div>
+
+  <!-- Empty div to balance the flex layout -->
+  <div class="w-24"></div> <!-- Adjust width to match the logo's width -->
+</nav>
 </body>
 </html>
